@@ -11,3 +11,5 @@ Consignas:
 -Ejecutar	el	programa,	y	capturar	su	salida	en	un	archivo	de	texto	output.txt
 -Publicar	en	repositorio	personal	AED	\ 00-CHelloWorld: readme.md,	hello.c,	y	output.txt
 -Informar	el	usuario	usuario	GitHub	en	la	lista	indicada	en	el	curso.
+
+Compilador MinGW32-gcc-g++ (versión 6.3.0-1) para C++20.
