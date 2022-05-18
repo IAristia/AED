@@ -22,4 +22,4 @@ Consignas:
 
 -Informar	el	usuario	usuario	GitHub	en	la	lista	indicada	en	el	curso.
 
-Compilador MinGW32-gcc-g++ (versión 6.3.0-1) para C++20.
+Compilador: MinGW32-gcc-g++ (versión 6.3.0-1) para C++20.
