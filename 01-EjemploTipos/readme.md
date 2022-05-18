@@ -1,3 +1,4 @@
+6
 Ejemplos de Valores y Operaciones
 de Tipos de Datos
 6.1. Objetivos
