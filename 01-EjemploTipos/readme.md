@@ -24,6 +24,8 @@ Crédito Extra
 ¿Son esos realmente todos los tipos que vimos en clase?
 Justifique.
 6.6. Productos
-DD-EjemploTipos
+`DD-EjemploTipos
  |-- readme.md
  `-- EjemploTipos.cpp
+
+Compilador: MinGW32-gcc-g++ (versión 6.3.0-1) para C++17.
