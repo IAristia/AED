@@ -1,26 +1,26 @@
 ## 00 "Hello, World!" en C++
 
-4.1. Objetivos
+### 4.1. Objetivos
 
 • Demostrar con, un programa simple, que se está en capacidad de editar, compilar, y ejecutar un programa C++.
 • Contar con las herramientas necesarias para abordar la resolución de los trabajos posteriores.
 
-4.2. Temas
+### 4.2. Temas
 
 • Sistema de control de versiones.
 • Lenguaje de programación C++.
 • Proceso de compilación.
 • Pruebas.
 
-4.3. Problema
+### 4.3. Problema
 
 Adquirir y preparar los recursos necesarias para resolver los trabajos del curso.
 
-4.4. Restricciones
+### 4.4. Restricciones
 
 • Ninguna.
 
-4.5. Tarea
+### 4.5. Tarea
 
 1. Si no posee una cuenta GitHub, crearla.
 2. Crear un repositorio público llamado AED.
@@ -40,13 +40,15 @@ Hello, World! o similar.
 readme.md, hello.cpp, y output.txt. 
 11. La última tarea es informar el usuario GitHub en la lista indicada en el curso.
 
-4.6. Productos
+### 4.6. Productos
 
 Usuario
 `-- AED
  `-- 00-CppHelloWorld
  |-- readme.md
  |-- hello.cpp
- `-- output.txt
+ `-- output.txt`
  
- Compilador: MinGW32-gcc-g++ (versión 6.3.0-1) para C++17.
+ ### Compilador
+ 
+ MinGW32-gcc-g++ (versión 6.3.0-1) para C++17.
