@@ -39,3 +39,5 @@ Usuario
  |-- readme.md
  |-- hello.cpp
  `-- output.txt
+ 
+ Compilador: MinGW32-gcc-g++ (versión 6.3.0-1) para C++17.
