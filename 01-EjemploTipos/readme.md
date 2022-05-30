@@ -7,6 +7,7 @@
 ### 6.2. Temas
 
 • Tipos de datos.
+
 • Valores.
 
 ### 6.3. Problema
@@ -16,7 +17,9 @@ Diseñar un programa C++ que ejemplifique con pruebas la aplicación de los tipo
 ### 6.4. Restricciones
 
 • Utilice assert para probar.
+
 • No extraer valores de cin, usar valores literales (constantes).
+
 • No enviar valores a cout.
 
 ### 6.5. Tareas
@@ -29,9 +32,13 @@ Diseñar un programa C++ que ejemplifique con pruebas la aplicación de los tipo
 Justifique.
 
 ### 6.6. Productos
-`DD-EjemploTipos
- |-- readme.md
-  |--EjemploTipos.cpp`
 
+```
+IAristia
+ - AED
+  - 01-EjemploTipos
+   - readme.md
+   - EjemploTipos.cpp
+```
 ### Compilador
 MinGW32-gcc-g++ (versión 6.3.0-1) para C++17.
