@@ -42,13 +42,14 @@ readme.md, hello.cpp, y output.txt.
 
 ### 4.6. Productos
 
-Usuario
-`-- AED
- `-- 00-CppHelloWorld
- |-- readme.md
- |-- hello.cpp
- `-- output.txt`
- 
+```
+IAristia
+ - AED
+  - 00-CppHelloWorld
+     - readme.md
+     - hello.cpp
+     - output.txt
+ ```
  ### Compilador
  
  MinGW32-gcc-g++ (versión 6.3.0-1) para C++17.
