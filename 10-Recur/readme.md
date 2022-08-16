@@ -16,3 +16,24 @@ Desarrollar las siguientes funciones:
 
 4. Fibonacci: Fib.
 
+## 10.4. Restricciones
+• Las pruebas deben realizarse con assert.
+
+• Cada función debe aplicar el operador condicional.
+## 10.5. Tareas
+Por cada función:
+1. Escribir el léxico, es decir, la definición matemática de la función.
+2. Escribir las pruebas.
+3. Escribir los prototipos.
+4. Escribir las definiciones.
+## 10.6. Productos
+
+```
+22-051-03
+- 10-Recur 
+  |-- readme.md 
+  |-- Div.cpp 
+  |-- Mcd.cpp 
+  |-- Factorial.cpp 
+  |-- Fibonacci.cpp
+```
