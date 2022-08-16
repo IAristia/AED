@@ -56,6 +56,10 @@ int main(){
 
     //    assert (Div(1,0)==1; //Causa un error, porque un numero no se puede dividir por 0
 
+    
+    // Nuevo problema: determinar la división entera de dos números dados, aplicando la división recursiva.
+    // Modelo IPO (Imput – Process – Output) 
+
     unsigned c, d;
     std::cin>> c >> d;
     std::cout<< Div(c,d);
