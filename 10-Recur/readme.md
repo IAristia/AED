@@ -1,3 +1,4 @@
+
 ## 10 Funciones Recursivas con Operador Condicional
 ## 10.1. Objetivos
 • Demostrar manejo de funciones definidas recursivamente e implementadas con el operador condicional.
