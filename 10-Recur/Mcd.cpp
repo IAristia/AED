@@ -1,13 +1,13 @@
-#define NDEBUG
+//#define NDEBUG
 #include <iostream>
 #include <cassert>
 
 /*Especificacion mcd
 
  Mcd: Z x Z --> Z / Mcd(d,n)= {0      r = 0
-                              {Mcd (b,r) si r != 0
+                              {Mcd (d,r) si r != 0
  r = n%d
- r == resto de la division de n por d
+ Donde  r es el resto de la division de n por d
 
 */
 
@@ -18,10 +18,13 @@ int mcd(int, int);
 int main()
 {
     assert(mcd(14, 2) == 2);
+    assert(mcd(2,14)==2);
     assert(mcd(13, 7) == 1);
     assert(mcd(-14, 2) == 2);
     assert(mcd(0, 4) == 4);
     assert(mcd(-14, -2) == -2);
+    //assert(mcd(4,0)==4);
+    //assert(mcd(-13,-7)==1);
 }
 
 /*Implementación*/
