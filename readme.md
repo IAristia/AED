@@ -15,7 +15,7 @@
 
 |Nombre   |Apellido  |Legajo|
 |:--------|:---------|:------------------------|
-|     |                            |          |
+|  Francisco   |          Mosquera Alfaro                  |    2038870      |
 |       |                             |       |
 ||||
 ||||
