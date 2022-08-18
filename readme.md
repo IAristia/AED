@@ -19,8 +19,8 @@
 |  Franco      |          Lapalma                          |    2037592    |
 |  Iñaki       |          Aristia                          |    1763829    |
 |  Juan Pablo  |          Galgano                          |    2036400    |
-||||
-||||
+|Ezequiel      |Luberto                                    |1721800|
+|Sebastian     |Faingerch|2026909|
 ||||
 ||||
 
