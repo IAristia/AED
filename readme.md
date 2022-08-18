@@ -18,7 +18,7 @@
 |  Francisco   |          Mosquera Alfaro                  |    2038870    |
 |  Franco      |          Lapalma                          |    2037592    |
 |  Iñaki       |          Aristia                          |    1763829    |
-||||
+|  Juan Pablo  |          Galgano                          |    2036400    |
 ||||
 ||||
 ||||
