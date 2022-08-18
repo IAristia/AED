@@ -35,9 +35,9 @@ int main(){
 }
 
 // Implementacion
-unsigned fib (unsigned n) {return n==0 ? 0   :
+unsigned Fibonacci (unsigned n) {return n==0 ? 0   :
                                   n==1 ? 1   :
-                                  fib (n-1) + fib (n-2);}
+                                  Fibonacci (n-1) + Fibonacci (n-2);}
 
 // Implementacion Optimizada
 //unsigned Fibonacci(unsigned a){
