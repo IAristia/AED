@@ -16,7 +16,7 @@
 |Nombre   |Apellido  |Legajo|
 |:--------|:---------|:------------------------|
 |  Francisco   |          Mosquera Alfaro                  |    2038870      |
-|  Franco      |          Lapalma                          |    203.759-2    |
+|  Franco      |          Lapalma                          |    2037592    |
 ||||
 ||||
 ||||
