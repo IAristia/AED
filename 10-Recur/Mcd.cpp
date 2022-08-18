@@ -26,6 +26,8 @@ int main()
     assert(mcd(146000,72000)==2000);
     assert(mcd(-14, -2) == -2);
     assert(mcd(-13,-7)==-1);
+    assert(mcd(140,7)==7);
+    assert(mcd(140,3)==1);
 }
 
 /*Implementación*/
