@@ -15,9 +15,9 @@
 
 |Nombre   |Apellido  |Legajo|
 |:--------|:---------|:------------------------|
-|  Francisco   |          Mosquera Alfaro                  |    2038870      |
+|  Francisco   |          Mosquera Alfaro                  |    2038870    |
 |  Franco      |          Lapalma                          |    2037592    |
-||||
+|  Iñaki       |          Aristia                          |    1763829    |
 ||||
 ||||
 ||||
