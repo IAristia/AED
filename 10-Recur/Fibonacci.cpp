@@ -9,6 +9,7 @@
 //Prototipo
 
 unsigned Fibonacci(unsigned);
+//unsigned fibo_optimizada(unsigned);
 
 int main(){
 
@@ -40,7 +41,7 @@ unsigned Fibonacci (unsigned n) {return n==0 ? 0   :
                                   Fibonacci (n-1) + Fibonacci (n-2);}
 
 // Implementacion Optimizada
-//unsigned Fibonacci(unsigned a){
+//unsigned fibo_optimizada(unsigned a){
 //  return a==0 ? 0
 //                : a==1 ? 1
 //                        : a==2 ? 1
