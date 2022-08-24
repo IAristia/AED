@@ -39,3 +39,12 @@ Por cada función:
   |-- Fibonacci.cpp
 ```
 ## 10.7 Complejidad algoritmica a nivel espacio y tiempo
+Complejdad Espacio y Tiempo
+
+1-Division:  La complejidad de espacio es Lineal (esto depende de como esta especificada). Y la Complejidad temporal es constante ( no estamos seguros). Ya que no solo depende de un numero sino que depende de 2, entonces no importa si el numero "a" es mas grande sino que tambien depende del numero  "b".
+
+
+2-Mcd:  La complejidad de espacio es constante ya que no tiene que hacer otro mcd adentro para sacarlo. Y la complejidad de tiempo tambien es constante 
+
+
+
