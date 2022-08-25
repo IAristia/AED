@@ -41,14 +41,14 @@ Por cada función:
 ## 10.7 Complejidad algoritmica a nivel espacio y tiempo
 Complejdad Espacio y Tiempo
 
-1-Division:  La complejidad de espacio es Lineal (esto depende de como esta especificada). Y la Complejidad temporal es constante ( no estamos seguros). Ya que no solo depende de un numero sino que depende de 2, entonces no importa si el numero "a" es mas grande sino que tambien depende del numero  "b".
+1-Division:  La complejidad de espacio es Lineal (depende de como esta especificada). Y la Complejidad temporal es constante. Ya que no solo depende de un numero sino que depende de 2, entonces no importa si el numero "a" es mas grande sino que tambien depende del numero  "b".
 
 
-2-Mcd:  La complejidad de espacio es constante ya que no tiene que hacer otro mcd adentro para sacarlo. Y la complejidad de tiempo tambien es constante 
+2-Mcd:  La complejidad de espacio es constante, ya que no se requiere hacer otro mcd adentro de la misma funcion para obtener el resultado. Y la complejidad de tiempo al igual que la espacial, es constante 
 
 
-3-Factorial:  El nivel de complejidad de espacio es lineal. Y la complejidad de tiempo tambien es lineal. Ya que hay una relacion lineal entre el "n" que introduzcamos y la complejidad del algoritmo. 
+3-Factorial:  Ambas complejidades son lineales, Debido que depende de el "n" que introduzcamos la cantidad de veces que se va a aejecutar la funcion factorial 
 
-4-Fibonacci:  El nivel de complejidad de espacio y el de tiempo  son lineales. Dependiendo  de que numero estemos buscando el fibonacci. 
+4-Fibonacci:  El tipo de complejidad de espacio y el del tiempo son lineales.
 
 
