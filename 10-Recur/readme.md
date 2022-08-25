@@ -47,7 +47,7 @@ Complejdad Espacio y Tiempo
 2-Mcd:  La complejidad de espacio es constante, ya que no se requiere hacer otro mcd adentro de la misma funcion para obtener el resultado. Y la complejidad de tiempo al igual que la espacial, es constante 
 
 
-3-Factorial:  Ambas complejidades son lineales, Debido que depende de el "n" que introduzcamos la cantidad de veces que se va a aejecutar la funcion factorial 
+3-Factorial:  El tipo de complejidad de espacio y el del tiempo son lineales.
 
 4-Fibonacci:  El tipo de complejidad de espacio y el del tiempo son lineales.
 
