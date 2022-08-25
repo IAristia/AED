@@ -47,4 +47,8 @@ Complejdad Espacio y Tiempo
 2-Mcd:  La complejidad de espacio es constante ya que no tiene que hacer otro mcd adentro para sacarlo. Y la complejidad de tiempo tambien es constante 
 
 
+3-Factorial:  El nivel de complejidad de espacio es lineal. Y la complejidad de tiempo tambien es lineal. Ya que hay una relacion lineal entre el "n" que introduzcamos y la complejidad del algoritmo. 
+
+4-Fibonacci:  El nivel de complejidad de espacio y el de tiempo  son lineales. Dependiendo  de que numero estemos buscando el fibonacci. 
+
 
