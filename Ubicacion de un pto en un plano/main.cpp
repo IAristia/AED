@@ -2,6 +2,9 @@
 #include <cassert>
 #include <iostream>
 
+/*
+Problema: Ubicacion de un punto en un plano 
+*/
 
 struct Punto{ double x,y;};
 
