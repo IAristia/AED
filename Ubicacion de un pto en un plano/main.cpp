@@ -36,6 +36,6 @@ int main(){
     assert ( Donde ({0,86.2}) == Sector::semiejeypos);
     assert ( Donde ({0,-98.2}) == Sector::semiejeyneg);
     assert ( Donde ({-41.2,0}) == Sector::semiejexneg);
-    //assert ( Donde ({1/3,5}) == Sector::CuadranteI); //No funca, averiguar como poner un cout
+    //assert ( Donde ({1/3,5}) == Sector::CuadranteI); //No funciona, averiguar como poner un cout
 
 }
