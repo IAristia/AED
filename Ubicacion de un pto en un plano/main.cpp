@@ -39,8 +39,9 @@ int main(){
     assert ( Donde ({0,86.2}) == Sector::semiejeypos);
     assert ( Donde ({0,-98.2}) == Sector::semiejeyneg);
     assert ( Donde ({-41.2,0}) == Sector::semiejexneg);
-    //assert ( Donde ({1/3,5}) == Sector::CuadranteI); //No funciona, averiguar como poner un cout
-
+    //assert ( Donde ({1/3,5}) == Sector::CuadranteI); Da error porque dividir 1/3 como enteros da como resultado 0; queda Donde (0.0,5.0), que no es CuadranteI sino que semiejeypos.
+    assert ( Donde ({1/3,5}) == Sector::semiejeypos);
+    assert ( Donde ({1.0/3,5}) == Sector::CuadranteI);
 }
 Sector Donde(Punto p){  return
                         p.x>0 and p.y>0 ? Sector::CuadranteI	:
