@@ -36,12 +36,8 @@ int main ()
     assert ( AreNear(Dis({2.3,-1.6},{4.3,-1.3}),2));
 }
 
-bool AreNear(double x, double y, double r=0.1)
-{
+bool AreNear (double a, double b, double c ) {return (a + c >= b) and (a - c) <= b;}
 
-
-}
-double dist(point a, point b)
-{
-    return(sqrt((a.x-b.x)^2+(a.y-b.y)^2));
-}
+double Dis( Punto d, Punto e) {return sqrt (
+                                           pow(d.x-e.x,2) + pow(d.y-e.y,2)
+                                           );}  
