@@ -18,7 +18,12 @@ struct point{
 
 double dist(point, point);
 int main ()
-{
+{   assert ( Dis( {1,1}, {1,1})  == 0);
+    assert ( Dis( {1,0}, {-1,0}) == 2);
+    assert ( Dis( {-1,0}, {1,0}) == 2);
+    assert ( Dis( {0,-1}, {0,1}) == 2);
+    assert ( Dis( {-5,2}, {3,-4}) == 10);
+ 
     assert ( AreNear(Dis({0,0},{0,0}), 0.1)); //se puede poner 0 tmb, ya que en el prototipo la tolerancia es de 0.1
     assert ( AreNear(Dis({1,1},{1,1}),0));
     assert ( AreNear(Dis({-1,1},{1,-1}),2.8));
