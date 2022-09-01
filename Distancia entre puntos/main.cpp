@@ -12,11 +12,11 @@ Problema: Distancia entre dos puntos en el plano
 
 bool AreNear(double, double, double = 0.1); //cambiando la tolerancia, tenemos que cambiar los resultados
 
-struct point{
+struct Punto{
     double x,y;
 };
 
-double Dis(point, point);
+double Dis(Punto, Punto);
 int main ()
 {   assert ( Dis( {1,1}, {1,1})  == 0);
     assert ( Dis( {1,0}, {-1,0}) == 2);
