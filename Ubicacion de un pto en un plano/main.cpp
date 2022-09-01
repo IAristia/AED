@@ -5,7 +5,9 @@
 /*
 Problema: Ubicacion de un punto en un plano 
 */
-
+/*
+  Punto = {(x,y)/x,yE R} = R^2
+*/
 struct Punto{ double x,y;};
 
 enum struct Sector { Origen, CuadranteI, CuadranteII, CuadranteIII, CuadranteIV, semiejexpos, semiejexneg, semiejeypos, semiejeyneg};
