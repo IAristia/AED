@@ -1,3 +1,13 @@
+#include <iostream>
+#include <cassert>
+#include <iostream>
+
+
+struct Punto{ double x,y;};
+
+enum struct Sector { Origen, CuadranteI, CuadranteII, CuadranteIII, CuadranteIV, semiejexpos, semiejexneg, semiejeypos, semiejeyneg};
+
+Sector Donde(Punto); // int Donde(double, double);
 
 int main(){
     assert ( Donde ({0,0}) == Sector::Origen);
