@@ -34,6 +34,7 @@ int main ()
     assert ( AreNear(Dis({-2.3,1.6},{-4.3,1.3}),2));
     assert ( AreNear(Dis({-2.3,-1.6},{4.3,1.3}),7.11));
     assert ( AreNear(Dis({2.3,-1.6},{4.3,-1.3}),2));
+    assert ( AreNear(Dis({1,1},{0,0}),1.41));
 }
 
 bool AreNear (double a, double b, double c ) {return (a + c >= b) and (a - c) <= b;}
