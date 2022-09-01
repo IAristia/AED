@@ -16,7 +16,7 @@ struct point{
     double x,y;
 };
 
-double dist(point, point);
+double Dis(point, point);
 int main ()
 {   assert ( Dis( {1,1}, {1,1})  == 0);
     assert ( Dis( {1,0}, {-1,0}) == 2);
