@@ -2,8 +2,9 @@
 #include <cassert>
 #include <cmath>
 
-/*Problema: Distancia entre dos puntos
-en el plano */
+/*
+Problema: Distancia entre dos puntos en el plano 
+*/
 
 
 /*
@@ -14,6 +15,22 @@ en el plano */
  */
 bool AreNear(double, double, double = 0.1); //cambiando la tolerancia, tenemos que cambiar los resultados
 
-struct Punto{
+struct point{
     double x,y;
 };
+
+double dist(point, point);
+int main ()
+{
+
+}
+
+bool AreNear(double x, double y, double r=0.1)
+{
+
+
+}
+double dist(point a, point b)
+{
+    return(sqrt((a.x-b.x)^2+(a.y-b.y)^2));
+}
