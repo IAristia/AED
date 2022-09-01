@@ -39,3 +39,13 @@ int main(){
     //assert ( Donde ({1/3,5}) == Sector::CuadranteI); //No funciona, averiguar como poner un cout
 
 }
+Sector Donde(Punto p){  return
+                        p.x>0 and p.y>0 ? Sector::CuadranteI	:
+                        p.x<0 and p.y>0 ? Sector::CuadranteII	:
+                        p.x<0 and p.y<0 ? Sector::CuadranteIII	:
+                        p.x>0 and p.y<0 ? Sector::CuadranteIV 	:
+                        p.x>0 and p.y==0 ? Sector::semiejexpos 	:
+                        p.x<0 and p.y==0 ? Sector::semiejexneg 	:
+                        p.x==0 and p.y>0 ? Sector::semiejeypos 	:
+                        p.x==0 and p.y<0 ? Sector::semiejeyneg 	:
+                                             Sector::Origen	  	;	 // EOC
