@@ -52,3 +52,4 @@ Sector Donde(Punto p){  return
                         p.x==0 and p.y>0 ? Sector::semiejeypos 	:
                         p.x==0 and p.y<0 ? Sector::semiejeyneg 	:
                                              Sector::Origen	  	;	 // EOC
+                     }
