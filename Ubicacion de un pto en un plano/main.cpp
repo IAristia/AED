@@ -46,6 +46,18 @@ int main(){
     assert ( Donde ({1.0/3,5}) == Sector::CuadranteI);
 }
 Sector Donde(Punto p){  return
+                        (p.x>0?(p.y>0? Sector::CuadranteI:
+                                p.y<0? Sector::CuadranteIV:
+                                Sector::semiejexpos): //EOC
+                        p.x<0?(p.y>0? Sector::CuadranteII:
+                               p.y<0? Sector::CuadranteIII:
+                               Sector::semiejexneg): //EOC
+                               (p.y>0? Sector::semiejeypos:
+                                p.y<0? Sector::semiejeyneg:
+                                Sector::Origen)); //EOC
+                     }
+
+ /* Sector Donde(Punto p){  return
                         p.x>0 and p.y>0 ? Sector::CuadranteI	:
                         p.x<0 and p.y>0 ? Sector::CuadranteII	:
                         p.x<0 and p.y<0 ? Sector::CuadranteIII	:
@@ -56,3 +68,4 @@ Sector Donde(Punto p){  return
                         p.x==0 and p.y<0 ? Sector::semiejeyneg 	:
                                              Sector::Origen	  	;	 // EOC
                      }
+*/
