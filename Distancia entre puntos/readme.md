@@ -60,7 +60,7 @@ en función de la otra.
 
 4. Declarar los prototipos de las operaciones antes de main.
 
-5. Declarar Punto y ParteDelPlano antes de los prototipos las operaciones.
+5. Declarar Punto y ParteDelPlano antes de los prototipos las operaciones .
 
 6. Compilar: Luego de finalizar tareas anteriores, estamos en condiciones de
 compilar. Deberíamos obtener error de linkeo (i.e., vinculación) pero no de
