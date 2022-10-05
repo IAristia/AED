@@ -3,28 +3,15 @@
 
 int main () {
     
-std::array <std::array<unsigned,3>,12> total; // ¿cuál array está adentro de cuál?
+std::array <std::array<unsigned,3>,12> total {};
 
+for (unsigned venta, mes, vendedor; std::cin >> venta >> mes >> vendedor;) 
+            total.at(mes).at(vendedor) += venta;
 
-for (unsigned venta, mes, vendedor; std::cin >> venta >> mes >> vendedor;) {
+        for (auto vendedor: total) {
+            for (auto totaldelmes : vendedor)
+                std::cout << totaldelmes << '\t';
+             std::cout << '\n';
 
-if (vendedor == 1)
-
-total.at(mes).at(vendedor) += venta; 
-// total.at(vendedor).at(mes) += venta; // cuál es la diferencia con la línea 16?
-
-if (vendedor == 2)
-
-total.at(mes).at(vendedor) += venta;
-
-else
-
-total.at(mes).at(vendedor) += venta;
-
-
-//for (int totalDelMes : total) { // problema : recorrer el array del array e ir mostrando los valores.
-//std::cout << total;
-
-
-}
-}
+        }
+    }
