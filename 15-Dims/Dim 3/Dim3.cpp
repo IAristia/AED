@@ -1,5 +1,6 @@
 #include <iostream>
 #include <array>
+#include <fstream>
 
 using std::array;
 
@@ -17,5 +18,9 @@ int main () {
                     std::cout << region << '\t';
                 std::cout << '\n';
             }
-        std:: cout << "------------\n";}
+        std:: cout << "------------\n";
+        }
+    auto filename("totales");
+    std::ofstream out(filename, std::ios::binary);
+    WriteBlock(out, total);    
 }
