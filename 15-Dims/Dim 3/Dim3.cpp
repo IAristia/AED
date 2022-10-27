@@ -1,6 +1,7 @@
 #include <iostream>
 #include <array>
 #include <fstream>
+#include "Blockstream.h"
 
 using std::array;
 
