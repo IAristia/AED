@@ -1,7 +1,7 @@
 #include <iostream>
 #include <array>
 #include <fstream>
-#include "Blockstream.h"
+#include "WriteBlock.h"
 
 using std::array;
 
