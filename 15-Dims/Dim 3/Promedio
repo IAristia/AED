@@ -1,0 +1,23 @@
+#include <iostream>
+#include <array>
+#include <fstream>
+
+   using std::array;
+
+   using Total = struct array<array<array<unsigned,4>, 3 >, 12 >;
+    enum struct mes { Uno, Dos, Tres, Cuatro, Cinco, Seis, Siete, Ocho, Nueve, Diez, Once, Doce};
+    enum struct region { n, s, e, o};
+    enum struct vendedor { Uno, dos, tres};
+
+        unsigned GetPromedio(Total);
+
+        unsigned GetPromedio(const Total& total){
+            unsigned suma;
+
+            for(auto vendedor : total)
+                for(auto region : vendedor)
+                    for(auto totalMes : region)
+                        suma += totalMes;
+
+        return suma/total.size() * total.at(0).size() * total.at(0).at(0).size() ;
+    }
