@@ -9,7 +9,7 @@ int main () {
 
    std::array <unsigned,12> total{0}; // dim 1
 
-   for (unsigned venta, mes; std::cin >> venta >> mes;)
+   for (unsigned venta, mes; std::cin >> venta >> mes;) //ingresar datos y suma a la posicion correspondiente en la linea 12
 
         total.at(mes) += venta;
 
