@@ -78,6 +78,6 @@ DD-Plano
  |-- readme.md
  |-- ParteDelPlano.md // Especificación
  |-- Punto.md // Especificación
- `-- Plano.cpp // Implementación y pruebas
+ |-- Plano.cpp // Implementación y pruebas
 
 
