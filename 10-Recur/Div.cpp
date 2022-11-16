@@ -43,9 +43,7 @@ int main(){
     assert(Div(Div(69'523,3),Div(88,13))<=3'863); // 3'862 <= 3'863
     
     
-    // Nuevo problema: determinar la división entera de dos números dados, aplicando la división recursiva.
-    // Modelo IPO (Imput – Process – Output) 
-
+  
     unsigned c, d;
     std::cin >> c >> d;
     std::cout << Div(c,d);
