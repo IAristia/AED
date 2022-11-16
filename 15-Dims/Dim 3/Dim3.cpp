@@ -12,3 +12,12 @@ int main () {
 
         total.at(mes).at(vendedor).at(region) += venta;
 }
+    for (auto region : total){ // extrae una region del array total.
+        for (auto vendedor : region) { // extrae un vendedor del array region.
+            for (auto totaldelmes: vendedor) // extrae el total de un mes del array vendedor.
+                std::cout << totaldelmes << '\t';
+            std::cout << '\n';
+        }
+        std:: cout << "-----------------------------------------------------\n";}
+
+}
