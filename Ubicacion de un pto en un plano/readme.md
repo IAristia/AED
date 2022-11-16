@@ -73,6 +73,7 @@ traducción completo (i.e., compilación y linkeo) sin errores. Una vez obtenido
 el programa ejecutable, deberíamos poder ejecutarlo sin errores.
 
 ## 16.6. Productos
+```
 DD-Plano
  |-- readme.md
  |-- ParteDelPlano.md // Especificación
