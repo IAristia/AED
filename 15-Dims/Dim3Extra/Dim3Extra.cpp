@@ -1,3 +1,22 @@
+#include <fstream>
+#include <iostream>
+#include <array>
+
+using std::array;
+
+using Total = array<array<array<unsigned,12>,3>,4>;
+
+struct Meses {array <unsigned,144> a;
+    unsigned n{};
+    void Agregar (unsigned);
+    void Imprimir(std::ostream &out);
+};
+
+unsigned GetPromedio (const Total&);
+
+
+
+
 int main () {
 
     Total total{};
