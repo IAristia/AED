@@ -1,3 +1,21 @@
+int main () {
+
+    Total total{};
+
+    constexpr auto filename_out{"totales.txt"};
+    constexpr auto filename_in{"Test3oficial.txt"};
+
+    {//Carga de datos desde un archivo
+        std::ifstream in (filename_in, std::ios::binary);
+        CargarDatos(total, in);
+    }
+
+    {//Impresion de salida requerida a un archivo
+        std::ofstream out (filename_out, std::ios::binary);
+        printTotalf(total, out);
+    }
+}
+
 //Suma el total de las ventas y las divide por el tamaño del array
 unsigned GetPromedio (const Total& total){
 
