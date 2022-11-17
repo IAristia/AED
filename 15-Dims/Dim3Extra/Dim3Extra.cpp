@@ -14,8 +14,15 @@ struct Meses {array <unsigned,144> a;
 
 unsigned GetPromedio (const Total&);
 
+Meses GetMesesConMontoIgualA (const Total&, unsigned monto);
 
+Meses GetMesesConMayorVentas (const Total&);
 
+unsigned GetMayorMonto (const Total&);
+
+void CargarDatos(Total&, std::istream& in);
+
+void printTotalf(const Total&, std::ostream& out);
 
 int main () {
 
