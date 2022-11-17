@@ -1,3 +1,32 @@
+//Suma el total de las ventas y las divide por el tamaño del array
+unsigned GetPromedio (const Total& total){
+
+    unsigned sumatotal{};
+
+    for (auto region : total)
+        for (auto vendedor : region)
+            for (auto totaldelmes: vendedor)
+
+                sumatotal += totaldelmes;
+
+    return sumatotal/(total.size()*total.at(0).size()*total.at(0).at(0).size());
+}
+
+//Obtiene los meses con el monto igual 
+Meses GetMesesConMontoIgualA (const Total& total, unsigned monto){
+
+    Meses meses{};
+
+    for (unsigned  r{}; r<total.size(); r++) // 4
+        for (unsigned  v{}; v<total.at(0).size(); v++) // 3
+            for (unsigned  m{}; m<total.at(0).at(0).size(); m++) // 12
+
+                if(monto == total.at(r).at(v).at(m))
+                    meses.Agregar(m);
+
+    return meses;
+}
+
 //Obtiene el mayor monto
 unsigned GetMayorMonto (const Total& total){
 
