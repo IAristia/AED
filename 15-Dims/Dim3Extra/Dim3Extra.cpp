@@ -11,7 +11,7 @@ struct Meses {array <unsigned,144> a;
     void Agregar (unsigned);
     void Imprimir(std::ofstream&);
 };
-
+//Prototipo
 unsigned GetPromedio (const Total&);
 
 Meses GetMesesConMontoIgualA (const Total&, unsigned);
@@ -85,6 +85,8 @@ void printTotalf(const Total& total, std::ofstream &out){
     out << "El/Los mes/es con menores ventas son/es: ";  GetMesesConMenorVentas(total).Imprimir(out); out << "\n";
 
 }
+//Implementación
+
 //Suma el total de las ventas y las divide por el tamaño del array
 unsigned GetPromedio (const Total& total){
 
