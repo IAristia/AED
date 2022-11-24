@@ -1,6 +1,7 @@
 #include <fstream>
 #include <iostream>
 #include <array>
+#include <cassert>
 
 using std::array;
 
