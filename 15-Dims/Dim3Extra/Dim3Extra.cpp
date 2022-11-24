@@ -41,7 +41,35 @@ int main () {
         printTotalf(total, out);
     }
 }
+//Lee los datos de un stream y los coloca en la estructura de datos tipo Total
+void CargarDatos(Total& total, std::ifstream &in){
+    for (unsigned venta, mes, vendedor, region; in >> venta >> mes >> vendedor >> region;)
+        total.at(region).at(vendedor).at(mes) += venta;
 
+}
+
+//Imprime los datos en el archivo "Totales.txt" y les aplica el formato
+void printTotalf(const Total& total, std::ofstream &out){
+
+    out <<"Tabla de ventas totales" << '\n';
+    out << '\n';
+
+
+    for (auto region : total){ // extrae una region del array total.
+        for (auto vendedor : region) { // extrae un vendedor del array region.
+            for (auto totaldelmes: vendedor) // extrae el total de un mes del array vendedor.
+                out << totaldelmes << '\t';
+                out << '\n';
+        }
+        out<< "----------------------------------------------------------------\n";
+    }
+    out << "El promedio de todas las ventas es: "  << GetPromedio(total) << "\n";
+    out << "El valor de la mayor venta es: "  << GetMayorMonto(total) << "\n";
+    out << "El menor monto es: " << GetMenorMonto(total) << "\n";
+    out << "El/Los mes/es con mayor venta son/es: ";  GetMesesConMayorVentas(total).Imprimir(out); /*out << "\n";*/
+    out << "El/Los mes/es con menores ventas son/es: ";  GetMesesConMenorVentas(total).Imprimir(out); out << "\n";
+
+}
 //Suma el total de las ventas y las divide por el tamaño del array
 unsigned GetPromedio (const Total& total){
 
