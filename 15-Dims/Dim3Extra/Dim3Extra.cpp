@@ -44,6 +44,17 @@ int main () {
         std::ofstream out (filename_out, std::ios::binary);
         printTotalf(total, out);
     }
+    //Pruebas
+    assert ( total.at(0).at(0).at(0) == 10000);
+    assert ( total.at(0).at(0).at(1) == GetMayorMonto(total));
+    assert ( total.at(0).at(0).at(1) == total.at(2).at(2).at(10));
+    assert ( total.at(2).at(1).at(11) == 0);
+    assert ( total.at(1).at(2).at(3) == GetMenorMonto(total));
+    assert ( total.at(3).at(1).at(11) == total.at(3).at(2).at(6));
+    assert ( total.at(1).at(2).at(5) != GetPromedio(total));
+    assert ( total.at(3).at(1).at(11) < total.at(2).at(2).at(10));
+    assert ( GetMayorMonto(total) > total.at(2).at(2).at(11));
+    
 }
 //Lee los datos de un stream y los coloca en la estructura de datos tipo Total
 void CargarDatos(Total& total, std::ifstream &in){
