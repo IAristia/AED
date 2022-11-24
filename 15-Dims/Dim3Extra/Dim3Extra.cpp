@@ -85,6 +85,22 @@ unsigned GetMayorMonto (const Total& total){
 
     return mayormonto;
 }
+
+//Obtiene el menor monto
+unsigned GetMenorMonto (const Total& total){
+
+    unsigned menormonto{};
+
+    for (unsigned  r{}; r<total.size(); r++) // 4
+        for (unsigned  v{}; v<total.at(0).size(); v++) // 3
+            for (unsigned  m{}; m<total.at(0).at(0).size(); m++) // 12
+
+                if(total.at(r).at(v).at(m) < menormonto)
+                    menormonto = total.at(r).at(v).at(m);
+
+    return menormonto;
+}
+
 //Devuelve el/los meses con mayor venta
 Meses GetMesesConMayorVentas (const Total& total){
 
@@ -92,6 +108,15 @@ Meses GetMesesConMayorVentas (const Total& total){
 
     return mesesconmayorventa;
 }
+
+//Devuelve el/los meses con menores ventas
+Meses GetMesesConMenorVentas (const Total& total){
+
+    Meses mesesconmenorventa = GetMesesConMontoIgualA(total, GetMenorMonto(total));
+
+    return mesesconmenorventa;
+}
+
 
 // Agrega el valor m a la posicion n dentro del array a del tipo de dato Meses
 void Meses::Agregar (unsigned m){
