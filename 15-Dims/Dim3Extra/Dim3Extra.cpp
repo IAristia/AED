@@ -24,6 +24,10 @@ void CargarDatos(Total&, std::ifstream&);
 
 void printTotalf(const Total&, std::ofstream&);
 
+unsigned GetMenorMonto (const Total&);
+
+Meses GetMesesConMenorVentas (const Total&);
+
 int main () {
 
     Total total{};
