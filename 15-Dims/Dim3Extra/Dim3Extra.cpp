@@ -14,7 +14,7 @@ struct Meses {array <unsigned,144> a;
 
 unsigned GetPromedio (const Total&);
 
-Meses GetMesesConMontoIgualA (const Total&, unsignedo);
+Meses GetMesesConMontoIgualA (const Total&, unsigned);
 
 Meses GetMesesConMayorVentas (const Total&);
 
