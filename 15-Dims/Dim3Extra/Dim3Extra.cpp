@@ -34,7 +34,7 @@ int main () {
     Total total{};
 
     constexpr auto filename_out{"totales.txt"};
-    constexpr auto filename_in{"Test3oficial.txt"};
+    constexpr auto filename_in{"Test3Extra.txt"};
 
     {//Carga de datos desde un archivo
         std::ifstream in (filename_in, std::ios::binary);
