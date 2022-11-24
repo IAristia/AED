@@ -9,20 +9,20 @@ using Total = array<array<array<unsigned,12>,3>,4>;
 struct Meses {array <unsigned,144> a;
     unsigned n{};
     void Agregar (unsigned);
-    void Imprimir(std::ostream &out);
+    void Imprimir(std::ofstream&);
 };
 
 unsigned GetPromedio (const Total&);
 
-Meses GetMesesConMontoIgualA (const Total&, unsigned monto);
+Meses GetMesesConMontoIgualA (const Total&, unsignedo);
 
 Meses GetMesesConMayorVentas (const Total&);
 
 unsigned GetMayorMonto (const Total&);
 
-void CargarDatos(Total&, std::istream& in);
+void CargarDatos(Total&, std::ifstream&);
 
-void printTotalf(const Total&, std::ostream& out);
+void printTotalf(const Total&, std::ofstream&);
 
 int main () {
 
@@ -99,7 +99,7 @@ void Meses::Agregar (unsigned m){
 }
 
 //Muestra por el stream salida contenido del dato del tipo Meses
-void Meses::Imprimir (std::ostream &salida){
+void Meses::Imprimir (std::ofstream &salida){
     for (unsigned i{}; i < n ; i++)
         salida << a.at(i) << ' ';
     salida<<'\n';
