@@ -19,11 +19,14 @@
 | Apellido: | Luberto    / Mosquera Alfaro     |
 | Nombre:   | Ezequiel Antonio    / Francisco  |
 
-# Problema: El problema establecido es la necesidad de poder leer tanto archivos de texto como binarios, que a estos puedan correrlos el programa y mostrarlo en salida con las dos formas pedidas para así poder ver en pantalla lo deseado por el usuario.
+# Problema: 
+El problema establecido es la necesidad de poder leer tanto archivos de texto como binarios, que a estos puedan correrlos el programa y mostrarlo en salida con las dos formas pedidas para así poder ver en pantalla lo deseado por el usuario.
 
-# Objetivo: Crear un código el cual, ya sea mediante un archivo binario o de texto que se le envíe, este entregue como salida el total de ventas que tiene cada vendedor de cada región en cada mes en los dos tipos de salida mencionados anteriormente.
+# Objetivo: 
+Crear un código el cual, ya sea mediante un archivo binario o de texto que se le envíe, este entregue como salida el total de ventas que tiene cada vendedor de cada región en cada mes en los dos tipos de salida mencionados anteriormente.
 
-## Resolución: A partir de la necesidad impuesta, se realizó un programa el cual pueda levantar los datos de ambas manera, ya sea utilizando ReadBlock (para binario) o a partir de un for clásico (para texto), y este luego de realizar todas las operaciones indicadas salga como se indicó previamente utilizando WriteBlock(para binario) o un for each (para texto).
+## Resolución: 
+A partir de la necesidad impuesta, se realizó un programa el cual pueda levantar los datos de ambas manera, ya sea utilizando ReadBlock (para binario) o a partir de un for clásico (para texto), y este luego de realizar todas las operaciones indicadas salga como se indicó previamente utilizando WriteBlock(para binario) o un for each (para texto).
 
 ## Funcionamiento:
 
