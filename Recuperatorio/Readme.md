@@ -21,10 +21,10 @@
 | Apellido: | Luberto    / Mosquera Alfaro     |
 | Nombre:   | Ezequiel Antonio    / Francisco  |
 
-# Problema: 
+## Problema: 
 El problema establecido es la necesidad de poder leer tanto archivos de texto como binarios, que a estos puedan correrlos el programa y mostrarlo en salida con las dos formas pedidas para así poder ver en pantalla lo deseado por el usuario.
 
-# Objetivo: 
+## Objetivo: 
 Crear un código el cual, ya sea mediante un archivo binario o de texto que se le envíe, este entregue como salida el total de ventas que tiene cada vendedor de cada región en cada mes en los dos tipos de salida mencionados anteriormente.
 
 ## Resolución: 
