@@ -81,3 +81,22 @@ Modo de ejecución:**.\text_to_binary.exe<input.bin**
 El progrma text_to_binary.exe recibe por flujo de entrada un archivo binario y lo convierte en formato texto. La salida que se obtendrá tendrá el siguiente formato:
 
 MONTO1 MES1 VENDEDOR1 REGION1 MONTO2 MES2 VENDEDOR2 REGION2... MONTON MESN VENDEDORN REGIONN
+
+
+## DIM3_HEADER
+
+Ejecutable: **dim3_header.exe**
+
+Modo de ejecución: **dim3_header.exe<input.txt**
+
+**Descripción**
+El programa recibe un archivo con la siguiente estructura
+
+FORMAT_INPUT
+FORMAT_OUTPUT
+MONTO1 MES1 VENDEDOR1 REGION1 MONTO2 MES2 VENDEDOR2 REGION2... MONTON MESN VENDEDORN REGIONN
+
+De esta forma dentro del archivo se encuentra un encabezado que hace que el programa genere determinado tipo de salida y espere determinado formato.
+
+Para el caso de generar inputs binarios tenemos el genera_header.exe, este coloca el encabezado para dicha decision en archivos de formato binario
+
