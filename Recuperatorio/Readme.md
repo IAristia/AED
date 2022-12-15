@@ -4,9 +4,12 @@
 
 <h2 align=center>Ingeniería en Sistemas de la Información</h2>
 
-<p align="center">
-<img  src="utn_logo.jpg" width="50%" height="50%" />
-</p>
+
+
+(Logo UTN)
+
+
+
 
 |Materia:   | Algoritmos y estructura de Datos |
 |:---------|:---------------------------------|
