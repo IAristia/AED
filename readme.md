@@ -1,7 +1,11 @@
-# AED
+# Iña :)
 
-Soy Iñaki Aristia del curso K1051 de Algoritmos y Estructuras de Datos de la Universidad Tecnológica Nacional.
+Soy _Iñaki Aristia_ del curso K2104 de Paradigmas de Programación de la Universidad Tecnológica Nacional (FRBA)
 
-En este repositorio se cargarán los trabajos realizados durante el ciclo lectivo 2022.
+Mi apellido significa  ***bosque de robles*** o.O
 
-Para la realización de los mismos utilizaré Viual Studio Code y el compilador externo MinGW32-gcc-g++ (versión 6.3.0-1) para C++17.
+Arranqué a cursar el 2020 y aprobé una sola materia (Química), pero ya estoy remontando 👍
+
+Me gusta todo el deporte en general, ver y practicar, especialmente fútbol, natación y básquet
+
+Amo descurbir nueva música, últimamente estoy escuchando mucho una banda que se llama ***Pacífica*** (https://www.youtube.com/watch?v=PEfsyxNPH4E)
